@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>guard let &lt;#var#&gt; = &lt;#optional#&gt; else { return &lt;#result#&gt; }</string>
+	<string>guard let &lt;#var#&gt; = &lt;#optional#&gt; else { return &lt;#nil#&gt; }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FD29B81C-DFCE-4B8F-BFC8-9EAFF651E988</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -19,6 +19,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
