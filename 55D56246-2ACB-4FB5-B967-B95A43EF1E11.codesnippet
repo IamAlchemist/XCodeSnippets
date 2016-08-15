@@ -3,22 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>todo</string>
+	<string>do try</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// TODO: &lt;#content#&gt;</string>
+	<string>do {
+    try &lt;#content#&gt;
+}
+catch let error as NSError {
+     &lt;#handelerror#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4B2D44CE-8682-4645-8D00-D34137ED4953</string>
+	<string>55D56246-2ACB-4FB5-B967-B95A43EF1E11</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>todo</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
