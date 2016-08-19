@@ -13,14 +13,14 @@
     try &lt;#content#&gt;
 }
 catch let error as NSError {
-     &lt;#handelerror#&gt;
+     print("&lt;#message#&gt; \(error.localizedDescription)")
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>55D56246-2ACB-4FB5-B967-B95A43EF1E11</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>do try catch</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
