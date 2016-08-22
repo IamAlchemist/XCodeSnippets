@@ -3,24 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>do try</string>
+	<string>wait for </string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>do {
-    &lt;#value#&gt; try &lt;#content#&gt;
-}
-catch let error as NSError {
-     print("&lt;#message#&gt; \(error.localizedDescription)")
-}</string>
+	<string>        waitForExpectationsWithTimeout(&lt;#2#&gt;) { (error) in
+            if let error = error {
+                print("wait error: \(error.localizedDescription)")
+            }
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>55D56246-2ACB-4FB5-B967-B95A43EF1E11</string>
+	<string>E995363E-9EBD-497E-9F6F-609DAF3AE7E5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>do try catch</string>
+	<string>wait for expectation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
