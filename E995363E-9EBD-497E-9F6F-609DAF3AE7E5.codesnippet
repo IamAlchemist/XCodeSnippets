@@ -6,7 +6,7 @@
 	<string>wait for </string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>        waitForExpectationsWithTimeout(&lt;#2#&gt;) { (error) in
