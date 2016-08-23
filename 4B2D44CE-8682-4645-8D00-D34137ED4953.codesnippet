@@ -9,7 +9,8 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// TODO: &lt;#implementation#&gt;</string>
+	<string>// TODO: implementation
+fatalError("&lt;#message#&gt;")</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4B2D44CE-8682-4645-8D00-D34137ED4953</string>
 	<key>IDECodeSnippetLanguage</key>
